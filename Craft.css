@@ -13,7 +13,7 @@ nav{
 .square{
     opacity: 0.5;
     position: absolute;
-    top: 30vh;
+    top: 200px;
     left: 30vw;
     height: 40px;
     width: 40px;
@@ -34,9 +34,4 @@ nav{
     position: absolute;
     top: 400px;
     left: 50vw;
-}
-@media screen and (max-width : 600px) {
-    .sqaure{
-        top: 20vh;
-    }
 }
