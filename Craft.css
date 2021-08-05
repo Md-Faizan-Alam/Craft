@@ -35,3 +35,8 @@ nav{
     top: 400px;
     left: 50vw;
 }
+@media screen and (max-width : 600px) {
+    .sqaure{
+        top: 20vh;
+    }
+}
