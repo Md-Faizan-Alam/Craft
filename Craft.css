@@ -1,0 +1,37 @@
+nav{
+    background-color: dodgerblue;
+    height: 60px;
+    font-size: 50px;
+    padding-left: 20px;
+    color: darkblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    font-family: 'Caveat', cursive;
+}
+.square{
+    opacity: 0.5;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    height: 40px;
+    width: 40px;
+}
+#container{
+    position: relative;
+    top: 300px;
+    width: 200px;
+    margin: auto;
+}
+#add{
+    background-color: dodgerblue;
+    border: none;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    top: 400px;
+    left: 50vw;
+}
