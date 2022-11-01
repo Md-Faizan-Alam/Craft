@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link for fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
-    <title>Craft</title>
-    <link rel="stylesheet" href="Craft.css">
-</head>
-<body>
-    <!-- Navbar -->
-    <nav>Craft</nav>
-    <!-- The zone is a div containing the whole 3D-Block -->
-    <div id="zone">
-    </div>
-    <!-- The container contains the angular sliders -->
-    <div id="container">
-        X-axis : <input type="range" class="Angle" min="0" max="360" value="0">
-        Y-axis : <input type="range" class="Angle" min="0" max="360" value="0">
-        Z-axis : <input type="range" class="Angle" min="0" max="360" value="0">
-    </div>
-    <!-- The buttons used to add new blocks -->
-    <div id="console">
-        <button class="arrow" onclick="add(0,0,-40)">F</button>
-        <button class="arrow" onclick="add(0,-40,0)">&uarr;</button>
-        <button class="arrow" onclick="add(0,0,40)">B</button>
-        <button class="arrow" onclick="add(-40,0,0)">&larr;</button>
-        <button class="arrow" onclick="add(0,40,0)">&darr;</button>
-        <button class="arrow" onclick="add(40,0,0)">&rarr;</button>
-    </div>
-    <!-- Link to the Javascript File -->
-    <script src="Craft.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Link for fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap"
+            rel="stylesheet"
+        />
+        <script src="index.js" type="module" defer></script>
+        <link rel="stylesheet" href="index.css" />
+        <title>Craft</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav>Craft</nav>
+        <!-- The zone is a div containing the whole 3D-Block -->
+        <div id="zone"></div>
+        <!-- The container contains the angular sliders -->
+        <div id="container">
+            X-axis :
+            <input type="range" class="angle" min="0" max="360" value="0" />
+            Y-axis :
+            <input type="range" class="angle" min="0" max="360" value="0" />
+            Z-axis :
+            <input type="range" class="angle" min="0" max="360" value="0" />
+        </div>
+        <!-- The buttons used to add new blocks -->
+        <div id="console">
+            <button class="arrow">F</button>
+            <button class="arrow">&uarr;</button>
+            <button class="arrow">B</button>
+            <button class="arrow">&larr;</button>
+            <button class="arrow">&darr;</button>
+            <button class="arrow">&rarr;</button>
+        </div>
+    </body>
 </html>
